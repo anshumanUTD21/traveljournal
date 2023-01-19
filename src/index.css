@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+  font-family: Inter;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  background-color: #fff;
+  align-items: center;
+}
+.nav-container {
+  width: 100vw;
+  max-width: 600px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  padding: 16px 0;
+  background-color: #f55a5a;
+}
+
+.nav-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  text-align: left;
+  color: #ffffff;
+}
+.card-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 40px 0 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background-color: #ffffff;
+}
+.card-img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.card-mark-icon {
+  width: 7px;
+  height: 9.55px;
+}
+.country-name {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12.39px;
+  letter-spacing: 0.17em;
+}
+.card-country {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.country-map-link {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration: underline;
+  color: #918e9b;
+}
+.card-heading {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 10px 0 20px 0;
+}
+.card-details {
+  padding-bottom: 10px;
+}
+.card-details span,
+.card-desc {
+  color: #2b283a;
+}
+.card-details span {
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+.card-desc {
+  font-size: 10.24px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+hr {
+  width: 500px;
+  color: #f5f5f5;
+  text-align: center;
+}
